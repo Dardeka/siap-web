@@ -1,10 +1,16 @@
-import Header from "../components/header"
+import { useState } from "react";
+import Header from "../components/header";
 
 const Dashboard = () => {
+    const [activeMenuItem, setActiveMenuItem] = useState('Dashboard');
+
     return (
         <div>
             {/* Header Section */}
-            <Header/>
+            <Header
+                activeMenuItem={activeMenuItem}
+                setActiveMenuItem={setActiveMenuItem}
+            />
 
             {/* Main Content */}
             <div className="max-w-[1124px] mt-[119px] mx-auto">
@@ -14,7 +20,7 @@ const Dashboard = () => {
                 {/* Separator */}
                 <div className="flex justify-center items-center mt-[38px] mb-[39px]">
                     <hr className="flex-1 h-[2px] bg-black"/>
-                    <h4 className="px-[30px] text-xl">INFORMASI STATISTIK</h4>
+                    <h4 className="px-[30px] text-xl"><b>INFORMASI STATISTIK</b></h4>
                     <hr className="flex-1 h-[2px] bg-black"/>
                 </div>
                 {/* Statistics */}
