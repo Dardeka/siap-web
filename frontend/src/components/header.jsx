@@ -1,6 +1,6 @@
-import { useState } from "react"
-import { Button } from "./ui/button"
-import { useNavigate } from "react-router-dom"
+import { useState } from "react";
+import { Button } from './ui/button';
+import { useNavigate } from "react-router-dom";
 
 const Header = ({activeMenuItem, setActiveMenuItem}) => {
     const navigate = useNavigate();
