@@ -4,7 +4,6 @@
 Sistem Informasi Arsip Pembelian (SIAP) is a website used to store purchase records related to a company. The website is designed to help individuals or businesses manage their purchase data more easily.
 
 ## :books: Features
-- :closed_lock_with_key: User Login
 - :bar_chart: Dashboard
 - :inbox_tray: Input Data
 - :mag: Search Data
